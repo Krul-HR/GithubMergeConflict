@@ -9,6 +9,8 @@ namespace MvcMovie.Models
         public DateTime ReleaseDate { get; set; }
         public string Genre { get; set; }
         public decimal Price { get; set; }
+        public bool isOnNetflix { get; set; }
         public int Rating { get; set; }
+
     }
 }
